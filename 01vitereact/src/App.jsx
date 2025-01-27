@@ -1,11 +1,16 @@
 
 
-
+import Test from "./test"
 function App() {
  
 
   return (
-   <h1>Alfiya Heba | Vite </h1>
+    <>
+    <Test/>
+    <h1>React | Vite</h1>
+
+    </>
+  
   )
 }
 
