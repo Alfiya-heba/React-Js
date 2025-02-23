@@ -1,0 +1,27 @@
+.card{
+  border:1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow:5px 5px 5px  hsl(0, 0%, 40%);
+  padding:20px;
+  margin:10px;
+  text-align: center;
+  width: 300px;
+  display: inline-block;
+  gap:20px;
+}
+
+
+.card .card-img{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.card .heading{
+  color:rgb(226, 114, 132);
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
