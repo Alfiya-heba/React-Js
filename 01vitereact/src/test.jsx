@@ -1,6 +1,17 @@
 function Test(){
+   const text1="Alfiya Heba";
+   const text2="Heba";
+
+   
  return(
-    <h2>Alfiya Heba!!!</h2>
+   <>
+   <ul>
+      <li>23-01-2025</li>
+      <li>{text1}</li>
+   </ul>
+   <p>{new Date().getTime()}</p>
+   </>
+  
  )
 }
 

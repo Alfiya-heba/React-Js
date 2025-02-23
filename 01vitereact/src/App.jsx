@@ -1,16 +1,16 @@
 
 
 import Test from "./test"
+import Header from "./header"
+import Footer from "./footer"
 function App() {
  
-
   return (
     <>
+    <Header/>
     <Test/>
-    <h1>React | Vite</h1>
-
+    <Footer/>
     </>
-  
   )
 }
 
