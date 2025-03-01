@@ -1,27 +1,38 @@
-.card{
-  border:1px solid hsl(0, 0%, 80%);
+.card {
+  border: 1px solid hsl(0, 0%, 80%);
   border-radius: 10px;
-  box-shadow:5px 5px 5px  hsl(0, 0%, 40%);
-  padding:20px;
-  margin:10px;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 40%);
+  padding: 20px;
   text-align: center;
-  width: 300px;
-  display: inline-block;
-  gap:20px;
+  width: 300px; /* Fixed width */
+  height: 400px; /* Fixed height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1; 
 }
 
+/* Ensure cards align in a row */
+.card-container {
+  display: flex;
+  justify-content: center; /* Aligns cards in the center */
+  align-items: stretch; /* Ensures all cards have the same height */
+  gap: 20px; /* Adds spacing between cards */
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
 
-.card .card-img{
+.card .card-img {
   max-width: 60%;
   height: auto;
   border-radius: 50%;
   margin: 10px;
 }
 
-.card .heading{
-  color:rgb(226, 114, 132);
+.card .heading {
+  color: rgb(226, 114, 132);
 }
 
-.card:hover{
+.card:hover {
   transform: scale(1.05);
 }
