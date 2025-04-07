@@ -20,7 +20,7 @@ Student.PropTypes = {
 
 // Define Default Props
 Student.defaultProps = {
-    name: "HIIIIIIIIIIIII",
+    name: "Guest",
     age: 69,
     isStudent: false,
 };
